@@ -55,9 +55,9 @@ Using SQL, we extract meaningful information to support **data-driven decision m
 ---
 
 ## 🧩 Database Schema
-Books(Book_ID, Title, Author, Genre, Price, Stock)
-Customers(Customer_ID, Name, Email, City, Country)
-Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount)
+- Books(Book_ID, Title, Author, Genre, Price, Stock)
+- Customers(Customer_ID, Name, Email, City, Country)
+- Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount)
 
 
 ---
