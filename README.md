@@ -1,125 +1,114 @@
-# Online_Book_Store
-📚 Online Book Store – SQL Data Analysis Project
-📌 Project Overview
+# 📚 Online Book Store – SQL Data Analysis Project
 
-This project simulates a real-world online bookstore database system.
-It demonstrates SQL skills required for Data Analyst roles such as:
+## 📌 Project Overview
+This project simulates a real-world **online bookstore database system**.  
+It demonstrates practical SQL skills required for Data Analyst roles, including:
 
-✔ Database design
-✔ Data cleaning
-✔ Writing complex queries
-✔ Business insights generation
-✔ Customer & sales analysis
+- Database design  
+- Data cleaning  
+- Writing complex queries  
+- Business insights generation  
+- Customer & sales analysis  
 
-The project uses structured datasets containing books, customers, and orders.
+The project uses structured datasets containing **books, customers, and orders**.
 
-🎯 Business Problem
+---
 
-An online bookstore wants to understand:
+## 🎯 Business Problem
+The bookstore wants to understand:
 
-Which books sell the most
+- Which books sell the most  
+- Who the top customers are  
+- Revenue trends  
+- Order patterns  
+- Inventory insights  
 
-Who are the top customers
+Using SQL, we extract meaningful information to support **data-driven decision making**.
 
-Revenue trends
+---
 
-Order patterns
+## 🗂 Dataset Information
 
-Inventory insights
+| Table | Description |
+|-------|-------------|
+| **Books** | Book details like title, author, genre, price |
+| **Customers** | Customer demographic information |
+| **Orders** | Purchase transactions |
 
-Using SQL, we extract meaningful information to help in decision making.
+---
 
-🗂 Dataset Information
+## 🧠 Skills Demonstrated
+- SQL Joins  
+- GROUP BY & Aggregations  
+- Subqueries  
+- Views  
+- Filtering & Sorting  
+- Business KPI calculations  
 
-The project includes data from multiple tables:
+---
 
-Table	Description
-Books	Book details like title, author, genre, price
-Customers	Customer demographic information
-Orders	Purchase transactions
-🧠 Skills Demonstrated
+## 🛠 Tools & Technologies
+- SQL  
+- MySQL / PostgreSQL  
+- Microsoft Excel (CSV handling)
 
-SQL Joins
+---
 
-Group By & Aggregations
-
-Subqueries
-
-Views
-
-Filtering & Sorting
-
-Business KPI calculations
-
-🛠 Tools & Technologies
-
-SQL
-
-MySQL / PostgreSQL
-
-Microsoft Excel (for CSV handling)
-
-🧩 Database Schema
-
-Example structure:
-
+## 🧩 Database Schema
 Books(Book_ID, Title, Author, Genre, Price, Stock)
 Customers(Customer_ID, Name, Email, City, Country)
 Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount)
 
-📊 Key Analysis Performed
 
-Some important business questions solved:
+---
 
-✅ Total revenue generated
-✅ Top selling books
-✅ Most valuable customers
-✅ Sales by city / country
-✅ Monthly order trends
-✅ Out-of-stock books
-✅ Average order value
+## 📊 Key Analysis Performed
+✔ Total revenue generated  
+✔ Top selling books  
+✔ Most valuable customers  
+✔ Sales by city / country  
+✔ Monthly order trends  
+✔ Out-of-stock books  
+✔ Average order value  
 
-🔥 Sample Queries
+---
 
-Examples of insights generated:
+## 🔥 Sample Business Questions
+- Find top 5 highest revenue books  
+- Identify repeat customers  
+- Calculate monthly sales  
+- Find best performing genres  
 
-Find top 5 highest revenue books
+---
 
-Identify repeat customers
+## 🚀 How to Run the Project
+1. Create a database in SQL.  
+2. Import the tables.  
+3. Run the SQL script.  
+4. Execute analysis queries.  
 
-Calculate monthly sales
+---
 
-Find best performing genres
+## 📈 Project Outcome
+This project builds strong foundations for:
 
-🚀 How to Run the Project
+- Data Analyst  
+- Business Analyst  
+- SQL Developer  
 
-Create a database in SQL.
+It reflects real industry-level querying and analytical thinking.
 
-Import the tables.
+---
 
-Run the SQL script.
+## 🙋‍♂️ About Me
+**Tejas Shete**  
+🎓 B.Sc. Data Science  
 
-Execute analysis queries.
+**Skills:** SQL | Python | Excel | Power BI | Machine Learning  
 
-📈 Project Outcome
+---
 
-This project helps practice real industry-level SQL problems and builds strong foundations for:
-
-Data Analyst
-
-Business Analyst
-
-SQL Developer roles
-
-🙋‍♂️ About Me
-
-Tejas Shete
-B.Sc. Data Science
-
-Skills: SQL | Python | Excel | Power BI | Machine Learning
+## ⭐ Support
+If you like this project, consider giving it a **star ⭐** on GitHub and feel free to fork or contribute!
 
 
-
-⭐ If You Like This Project
-
-Give it a star on GitHub and feel free to fork or contribute!
